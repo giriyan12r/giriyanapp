@@ -1,0 +1,29 @@
+element(h1)
+    start tag<h1>
+        attribute
+            properties
+                value
+                    keyword
+                    number
+                        units
+        <h1 title="this is myname">
+    end tag</h1>
+
+types of elements
+    1. text formating elements
+        h1...h6
+        i,b,u,strike,
+    2. structural elements
+        p
+        blockquote
+        lists
+            list items(li)
+            unordered lists
+                ul
+            ordered lists
+                ol
+            data lists
+                dl
+        table
+            tr
+                td

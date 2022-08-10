@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <script>
+            var num =prompt("enter the no")
+            var  r=0
+            var d;
+            var temp=num;
+            
+
+            while(num!=0)
+            {
+               
+              
+                d=num%10;
+                r=r*10+d;
+                num=parseInt(num/10);
+               
+              
+              
+            }
+            console.log(r)
+            if(temp==r){
+                console.log('pollendrom')
+            }
+            else
+            {
+                console.log("not")
+            }
+        
+        </script>
+    </body>
+</html>
